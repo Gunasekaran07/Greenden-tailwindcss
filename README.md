@@ -30,13 +30,8 @@ To view the project locally:
 > Note: Make sure you have an internet connection if you're using Tailwind via CDN.
 
 ## 🌐 Live Demo
+https://github.com/Gunasekaran07
 
 
-## 📸 Screenshots
 
-*Add screenshots here if available (optional)*
 
----
-
-Let me know if you’d like help adding screenshots, badges, or setting it up for deployment!
-# Greenden-tailwindcss
