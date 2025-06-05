@@ -1,0 +1,40 @@
+<input id="search" type="text " placeholder="Search">
+<div class="container">
+    <h1>one</h1>
+    <h1>two</h1>
+    <h1>three</h1>
+    <h1>four</h1>
+    <h1>five</h1>
+    <h1>six</h1>
+    <h1>seven</h1>
+    <h1>eight</h1>
+    <h1>nine</h1>
+    <h1>ten</h1>
+    <h1>eleven</h1>
+</div>
+
+<script>
+// selecting elements
+ let searchInput = document.getElementById("search");
+ let container = document.querySelector(".container");
+ let h1List = document.querySelectorAll("h1");
+  
+
+//  giving functins
+searchInput.addEventListener("keyup",function(){
+    let inputvalue=event.target.value.toUpperCase()
+
+    for(count=0;count<h1List.length;count=count+1)
+{
+    if(h1List[count].textContent.toUpperCase().indexOf(inputvalue)<0)
+{
+    h1List[count].style.display="none"
+}
+else{
+    h1List[count].style.display="block"
+}
+}
+    
+})
+
+</script>
